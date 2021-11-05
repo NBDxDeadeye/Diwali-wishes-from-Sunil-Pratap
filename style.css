@@ -12,7 +12,7 @@ body{
 .quote{
     /* background-color: rgb(206, 173, 125); */
     background-image: url("img.jpg");
-    background-size: contain;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
