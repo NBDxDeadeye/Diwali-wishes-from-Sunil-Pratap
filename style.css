@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #c4c2c0;
+
+}
+.quote{
+    /* background-color: rgb(206, 173, 125); */
+    background-image: url("img.jpg");
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88vw;
+    height: 94vh;
+    flex-direction: column;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+    text-align: center;
+    border-radius: 44px;
+    color: white;
+}
+button{
+    margin-top: 350px;
+    padding: 14px 14px;
+    background-color: rgb(199 177 180);
+    color: cadetblue;
+    border-radius: 23px;
+    color: black;
+    font-family: 'Baloo Da 2', cursive;
+}
+#generate{
+    font-family: 'Baloo Da 2', cursive;
+}
